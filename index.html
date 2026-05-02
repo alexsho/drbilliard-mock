@@ -149,73 +149,109 @@
         Forums
       </div>
 
-      <a href="https://drbilliard.com/community/dr-billiard/" target="_blank"
-         class="block px-4 py-4 border-b border-gray-800 hover:bg-[#1a1a1a] transition">
-        <p class="text-yellow-400">Dr Billiard</p>
-        <p class="text-gray-500 text-xs">Updates & general discussion</p>
-      </a>
-
       <a href="https://drbilliard.com/community/pool-billiards/" target="_blank"
-         class="block px-4 py-4 border-b border-gray-800 hover:bg-[#1a1a1a] transition">
-        <p class="text-yellow-400">Pool / Billiards</p>
-        <p class="text-gray-500 text-xs">League play & tournaments</p>
+         class="flex items-center gap-4 px-4 py-4 border-b border-gray-800 hover:bg-[#1a1a1a] transition duration-300">
+        <div class="relative">
+          <img src="https://i.pravatar.cc/40?img=1" class="w-10 h-10 rounded-full">
+          <span class="absolute bottom-0 right-0 w-3 h-3 bg-green-400 rounded-full border border-black"></span>
+        </div>
+        <div>
+          <p class="text-yellow-400">Pool / Billiards</p>
+          <p class="text-gray-500 text-xs">League play & tournaments</p>
+        </div>
       </a>
 
       <a href="https://drbilliard.com/community/darts/" target="_blank"
-         class="block px-4 py-4 border-b border-gray-800 hover:bg-[#1a1a1a] transition">
-        <p class="text-yellow-400">Darts</p>
-        <p class="text-gray-500 text-xs">Matches & discussions</p>
+         class="flex items-center gap-4 px-4 py-4 border-b border-gray-800 hover:bg-[#1a1a1a] transition duration-300">
+        <div class="relative">
+          <img src="https://i.pravatar.cc/40?img=2" class="w-10 h-10 rounded-full">
+          <span class="absolute bottom-0 right-0 w-3 h-3 bg-green-400 rounded-full border border-black"></span>
+        </div>
+        <div>
+          <p class="text-yellow-400">Darts</p>
+          <p class="text-gray-500 text-xs">Matches & discussion</p>
+        </div>
       </a>
 
       <a href="https://drbilliard.com/community/buy-sell/" target="_blank"
-         class="block px-4 py-4 hover:bg-[#1a1a1a] transition">
-        <p class="text-yellow-400">Buy / Sell</p>
-        <p class="text-gray-500 text-xs">Local listings & gear</p>
+         class="flex items-center gap-4 px-4 py-4 hover:bg-[#1a1a1a] transition duration-300">
+        <div class="relative">
+          <img src="https://i.pravatar.cc/40?img=3" class="w-10 h-10 rounded-full">
+          <span class="absolute bottom-0 right-0 w-3 h-3 bg-green-400 rounded-full border border-black"></span>
+        </div>
+        <div>
+          <p class="text-yellow-400">Buy / Sell</p>
+          <p class="text-gray-500 text-xs">Local listings & gear</p>
+        </div>
       </a>
 
     </div>
 
-    <!-- RIGHT: RECENT ACTIVITY -->
-    <div class="bg-[#121212] border border-gray-800 rounded-xl overflow-hidden">
+    <!-- RIGHT: LIVE-STYLE FEED -->
+    <div class="space-y-4">
 
-      <div class="px-4 py-3 border-b border-gray-800 text-gray-400 text-sm">
-        Recent Activity
+      <!-- POST -->
+      <div class="bg-[#121212] border border-gray-800 rounded-xl p-4 hover:scale-[1.02] hover:bg-[#1a1a1a] transition duration-300">
+        <div class="flex items-center gap-3 mb-2">
+          <div class="relative">
+            <img src="https://i.pravatar.cc/32?img=5" class="w-8 h-8 rounded-full">
+            <span class="absolute bottom-0 right-0 w-2 h-2 bg-green-400 rounded-full border border-black"></span>
+          </div>
+          <div class="text-xs text-gray-400">
+            <span class="text-gray-300">u/localplayer</span> • <span id="time1">just now</span>
+          </div>
+        </div>
+        <p class="text-sm mb-2">Looking for a match this weekend</p>
+        <div class="flex gap-4 text-xs text-gray-500">
+          <span>▲ 12</span>
+          <span>💬 4</span>
+        </div>
       </div>
 
-      <div class="space-y-4 p-4">
-
-        <div>
-          <p class="text-sm text-gray-200">Looking for a match this weekend</p>
-          <p class="text-xs text-gray-500">Pool / Billiards • 2 hours ago</p>
+      <!-- POST -->
+      <div class="bg-[#121212] border border-gray-800 rounded-xl p-4 hover:scale-[1.02] hover:bg-[#1a1a1a] transition duration-300">
+        <div class="flex items-center gap-3 mb-2">
+          <img src="https://i.pravatar.cc/32?img=6" class="w-8 h-8 rounded-full">
+          <div class="text-xs text-gray-400">
+            <span class="text-gray-300">u/leagueplayer</span> • 2h ago
+          </div>
         </div>
-
-        <div>
-          <p class="text-sm text-gray-200">Best cloth for tournament tables?</p>
-          <p class="text-xs text-gray-500">General Discussion • Yesterday</p>
+        <p class="text-sm mb-2">Best cloth for tournament tables?</p>
+        <div class="flex gap-4 text-xs text-gray-500">
+          <span>▲ 8</span>
+          <span>💬 2</span>
         </div>
-
-        <div>
-          <p class="text-sm text-gray-200">Weekly Friday tournament results</p>
-          <p class="text-xs text-gray-500">Tournaments • 2 days ago</p>
-        </div>
-
-        <div>
-          <p class="text-sm text-gray-200">Selling custom cue — like new</p>
-          <p class="text-xs text-gray-500">Buy / Sell • 3 days ago</p>
-        </div>
-
       </div>
+
+      <!-- POST -->
+      <div class="bg-[#121212] border border-gray-800 rounded-xl p-4 hover:scale-[1.02] hover:bg-[#1a1a1a] transition duration-300">
+        <div class="flex items-center gap-3 mb-2">
+          <img src="https://i.pravatar.cc/32?img=7" class="w-8 h-8 rounded-full">
+          <div class="text-xs text-gray-400">
+            <span class="text-gray-300">u/tournamentguy</span> • Yesterday
+          </div>
+        </div>
+        <p class="text-sm mb-2">Weekly Friday tournament results posted</p>
+        <div class="flex gap-4 text-xs text-gray-500">
+          <span>▲ 15</span>
+          <span>💬 6</span>
+        </div>
+      </div>
+
     </div>
 
   </div>
 
-  <!-- CTA -->
-  <div class="text-center mt-10">
-    <a href="https://drbilliard.com/community/" target="_blank"
-       class="bg-yellow-500 hover:bg-yellow-400 px-8 py-3 rounded-lg text-black font-semibold inline-block">
-      Visit Full Community Forum
-    </a>
+  <!-- OPTIONAL: LIVE FEED EMBED -->
+  <div class="mt-10 text-center">
+    <p class="text-gray-500 text-sm mb-4">Live updates from community</p>
+
+    <iframe 
+      src="https://drbilliard.com/community/feed/"
+      class="w-full h-64 border border-gray-800 rounded-lg bg-black">
+    </iframe>
   </div>
+
 </section>
 
 <!-- CONTACT -->
